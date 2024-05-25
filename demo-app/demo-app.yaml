@@ -1,4 +1,3 @@
-# Test commit
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -17,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: vetgo:5000/vetgo/test-nextjs:latest
+          image: test-nextjs-v2
           imagePullPolicy: Always
 ---
 apiVersion: v1
