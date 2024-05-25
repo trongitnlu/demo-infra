@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: test-nextjs-v2
+          image: vetgo:5000/test-nextjs-v2
           imagePullPolicy: Always
 ---
 apiVersion: v1
