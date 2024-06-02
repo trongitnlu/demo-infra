@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: registry.vetgo.vn:5000/test-nextjs-v2
+          image: registry.khalinh.live/test-nextjs
           imagePullPolicy: Always
       imagePullSecrets:
         - name: regcred
