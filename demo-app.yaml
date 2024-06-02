@@ -12,7 +12,7 @@ spec:
     targetRevision: HEAD
   destination:
     name: ""
-    namespace: demo-app
+    namespace: demo-nextjs
     server: "https://kubernetes.default.svc"
 
   syncPolicy:
